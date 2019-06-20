@@ -1,0 +1,530 @@
+<html>
+<!-- Copied from http://dimio.altervista.org/ita/dsynchronize/dsynchronize.html by Cyotek WebCopy 1.7.0.600, 20 Tha?ng Sa?u 2019, 08:54:36 -->
+
+<head>
+<title>DSYNCHRONIZE - Sincronizza i tuoi file in Lan e Wan</title>
+<meta http-equiv="Page-Enter" content="RevealTrans(Duration=1,Transition=12)">
+<meta name="description" content="Sincronizza le cartelle in LAN, WAN, FTP, sincronizzazione bidirezionale, temporizzata e in realtime, filtro selettivo, avvio come servizio, link simbolici e hard links, junctions e Mount Points, streams, log per email, ACL">
+<meta name="keywords" content="synchronize, sync, lan, folder, realtime, schedule, bidirectional, remote, directory, backup, free, freeware, windows, cat, dimio, symbolic links, hardlinks, junctions, mount point, email, acl, stream, cloud, NTFS, journal, transactional">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="7 days">   
+<link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Language" content="it">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style type="text/css">
+.auto-style1 {
+	color: #008000;
+}
+.auto-style2 {
+	text-align: left;
+}
+.auto-style3 {
+	font-size: larger;
+}
+.auto-style5 {
+	text-align: center;
+}
+.auto-style4 {
+	color: #800080;
+}
+.auto-style6 {
+	text-align: center;
+	color: #800080;
+}
+.auto-style11 {
+	border-width: 1px;
+	background-image: url('sfondogrigiochiaro4.jpg');
+}
+.auto-style22 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.auto-style25 {
+	font-family: "Comic Sans MS";
+}
+.auto-style26 {
+	font-weight: bold;
+	font-family: "Comic Sans MS";
+}
+.auto-style27 {
+	text-align: center;
+	font-family: "Comic Sans MS";
+	color: #008000;
+}
+.auto-style33 {
+	color: #23234F;
+}
+.auto-style34 {
+	border-width: 0px;
+}
+.auto-style37 {
+	font-size: medium;
+}
+.auto-style43 {
+	text-align: left;
+	font-family: "Comic Sans MS";
+}
+
+.auto-style74 {
+	border-style: solid;
+	border-width: 4px;
+}
+
+.auto-style57 {
+	color: #230023;
+	font-family: "Comic Sans MS";
+	font-size: medium;
+}
+</style>
+<script type="text/javascript">
+<!--
+function FP_popUpMsg(msg) {//v1.0
+ alert(msg);
+}
+// -->
+</script>
+</head>
+
+<body bgcolor="#c8c8c8" style="text-align: center; background-image: url('sfondogrigiochiaro2B.jpg');">
+<div align="center">
+
+<div align="center">
+
+	<img height="96" src="Title.gif" width="770" alt="DSYNCHRONIZE"><hr><table style="width: 100%">
+		<tr>
+			<th>
+			<p>
+			<a href="#Download Link">
+			<img src="Scritta-TopV2.gif" ondblclick="FP_popUpMsg('Sincronizza quotidianamente i vostri dati mettendoli al riparo da virus e rotture di hard disk.')" alt="Sincronizza quotidianamente i vostri dati mettendoli al riparo da Virus e rotture di HD" class="auto-style34"></a></p>
+			<p>
+			<img height="183" src="Arrow Glass Transparent Side.png" width="189" alt="Sincronizzazione dati tra periferiche"></p>
+			<p class="auto-style33">
+			<a href="#Download Link">
+			<img height="183" src="dsynchronize_targets.gif" width="749" alt="Sincronizzazione con Floppy, HD, CD-DVD, LAN, USB Key, FTP, PC Fotocamera, Smartphone e Laptop" class="auto-style34"></a></p>
+			</th>
+			<td style="width: 30%" valign="top">
+			<a href="#Download Link" title="Download Link">
+			<img src="Box_dsync.jpg" style="float: right" alt="DSynchronize Box" class="auto-style34"></a></td>
+		</tr>
+	</table>
+</div>
+	<br>
+	<hr><br><table style="width: 100%">
+		<tr>
+			<th style="width: 10%">
+			<p>
+			<img src="dsynchronize_descrizione.gif" ondblclick="FP_popUpMsg('PRINCIPALI FUNZIONALITA\'\r\n\r\nDSynchronize permette di salvare quotidianamente i propri dati mettendoli al riparo da virus e rotture dell&#8217;hard disk.\r\n\r\nLa sincronizzazione richiede di solito pochi istanti e può essere automatizzata.\r\n\r\nI dati da sincronizzare possono trovarsi in su Hard Disk, Floppy Disk, LAN, USB Key, CD-DVD (tramite packet writing) e server FTP.\r\n\r\nE&#8217; standalone, cioè non richiede installazione, basta aprire lo zip ed eseguirlo.\r\n\r\nElenco delle principali funzionalità:\r\n\r\n    Sincronizzazione Standard e Temporizzata.\r\n\r\n    Sincronizzazione in RealTime.\r\n\r\n    Sincronizzazione bidirezionale.\r\n\r\n    Filtro selettivo (con possibilità di escludere singoli file o cartelle)\r\n\r\n    Avvio come Servizio (senza necessità di loggarsi).\r\n\r\n    Supporto dei Link Simbolici e degli Hard Links.\r\n\r\n    Supporto delle Junctions e dei Mount Points.\r\n\r\n    Supporto degli ACL.\r\n\r\n    Invio del Log per Email.\r\n\r\n    Mantenimento delle versioni precedenti dei singoli file.\r\n\r\n    Confronto byte per byte.\r\n\r\n    Possibilità di suddividere il lavoro per &quot;Jobs&quot;, ognuno con i suoi settaggi.\r\n \r\n    Occupazione minima delle risorse sia in termini di RAM che di CPU.')" style="float: left" alt="Principali funzionalità"></p>
+			</th>
+			<td style="width: 40%" valign="top" class="auto-style5">
+			<br><img height="340" src="Logo-DS-Glass8.png" width="340"><br>
+			<br><br><br><br><br><br><br><a href="#Download Link">
+			<img src="dsynchronize_tesseract.gif" class="auto-style34"></a><br>
+			<br><br>
+			<br><br>
+			<br>
+			<br>
+			</td>
+		</tr>
+	</table>
+
+</div>
+<div align="center">
+
+	<div align="center">
+
+		<table style="width: 100%">
+			<tr>
+				<td>
+				<br>
+				</td>
+			</tr>
+		</table>
+
+</div>
+	<img height="77" src="Screenshots.gif" width="651" alt="SCREENSHOTS"><br>
+	<hr>
+	<table style="width: 100%">
+		<tr>
+			<td class="auto-style5" rowspan="2" style="width: 10%">
+			<img src="dsynchronize_screenshot.jpg" alt="DSynchronize Screenshot"></td>
+			<td class="auto-style5" style="width: 50%"><br>
+			<a href="#Download Link">
+			<img src="Scritta-MidV2.gif" ondblclick="FP_popUpMsg('L\'interfaccia è semplice e diretta e tutte le opzioni sono visibili ad un semplice colpo d\'occhio.')" alt="L'interfaccia è semplice e diretta, tutte le opzioni sono visibili ad un semplice colpo d'occhio" class="auto-style34"></a></td>
+		</tr>
+		<tr>
+			<td class="auto-style5" style="width: 50%" valign="top">
+			<img src="CheckTrans.png"></td>
+		</tr>
+	</table>
+	<hr>
+
+	<br>
+	<img src="dsynchronize_jobs_and_filters.gif" alt="Jobs selection and Filter selection"><br>
+	<br><img height="83" src="PowerfulFeatures.gif" width="944"><hr>
+
+	<br>
+	<table style="width: 100%">
+		<tr>
+			<td class="auto-style5" style="width: 50%">
+			<img src="dsynchronize_main.gif" alt="DSynchronize main window screenshot"></td>
+			<td class="auto-style5" style="width: 50%">
+			<a href="#Download Link">
+			<img src="Scritta-Mid-B.gif" alt="Sincronizzazione in Tempo Reale, Sincronizzazione Bidirezionale, Sincronizzazione Temporizzata (ad un orario prefissato)" ondblclick="FP_popUpMsg('DSynchronize può sincronizzare i file in tempo reale, la sincronizzazione può essere mono o Bidirezionale. La prodedura può essere regolata da un Timer.')" class="auto-style34" height="522" width="571"></a></td>
+		</tr>
+	</table>
+	<br>
+	<table style="width: 100%">
+		<tr>
+			<td class="auto-style5" style="width: 50%">
+			<a href="#Download Link">
+			<img src="scritta-transacted_ita.gif" ondblclick="FP_popUpMsg('La nuovissima Sincronizzazione Transazionale consente di usare il Journal di NTFS per ottenere l\'elenco di tutte le modifiche effettuate nel file system senza richiedere che il programma sia in esecuzione durante le stesse.')" class="auto-style34"></a></td>
+			<td class="auto-style5" style="width: 50%">
+			<img height="608" src="dsynchronize_transactional.gif" width="716"></td>
+		</tr>
+	</table>
+	<hr>
+
+	<span class="auto-style25"><span class="auto-style37">
+	<table style="width: 100%">
+		<tr>
+			<td class="auto-style5" style="width: 50%">
+
+	<span class="auto-style25"><span class="auto-style37">
+	<img src="Controller.gif"></span></span></td>
+			<td class="auto-style5" style="width: 50%">
+			<img onclick="FP_popUpMsg('Tramite il Controller Remoto è possibile monitorare numerose istanze di DSynchronize in esecuzione su workstation differenti.')" src="scritta_controller.gif"></td>
+		</tr>
+	</table>
+	</span></span>
+	<hr>
+
+	<br>
+
+</div>
+<div align="center">
+
+	<a name="Download Link">
+
+	<img height="344" src="Download Maxi e Freccia Trans.png" width="971" alt="Download DSynchronize" ondblclick="FP_popUpMsg('DOWNLOAD')"></a></div>
+<div align="center">
+
+	<p align="center">
+	<a href="http://dimio.altervista.org/stats/click.php?id=3">
+	<img class="auto-style34" src="dsynchronize_icon_flash.gif" alt="Download DSynchronize" longdesc="Clicca qui per scaricare DSynchronize"></a></p>
+
+</div>
+
+<p align="center">
+<font size="4" color="#990033">
+<strong><span class="auto-style22">
+&nbsp;DSYNCHRONIZE v2.44 (Windows)</span></strong></font></p>
+<hr>
+<p align="center">
+<img src="Internationals.gif" alt="International Language Packs" ondblclick="FP_popUpMsg('INTERNATIONAL LANGUAGE PACKS')"></p>
+
+<table border="0" width="100%">
+	<tr>
+		<td>
+		<blockquote>
+			<p class="auto-style2">
+			<img border="0" src="flag_italia.gif" alt="Language pack Italiano">
+			<b>
+			<a href="../../zip/DSynchronize Italian Pack.zip">Italiano</a></b> (By 
+			<a href="mailto:epiparo@eniware.it?subject=DSynchronizeItaliano">Edoardo Piparo</a> &amp; 
+			<a href="mailto:tafmail@gmail.com">Marco 
+			Braidotti - Taf</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_francia.gif" alt="Language pack Francese" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize French Pack.zip">Francese</a></b> (By 
+			<a href="mailto:darth2602@yahoo.fr">Olivier 
+			Orlianges</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_germania.gif" alt="Language pack Tedesco" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize German Pack.zip">Tedesco</a></b> (By 
+			<a href="mailto:madeonearth@gmx.net?subject=DSynchronizeGerman">Dani</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_spagna.gif" alt="Language pack Spagnolo" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Spanish Pack.zip">Spagnolo</a></b> (By 
+			<a href="mailto:sysmcn@gmail.com?subject=DSynchronizeSpanish">SySmcn</a> 
+			&amp; <a href="mailto:Andres%20Fulco%20%3Cafulco@outlook.com%3E">Andres 
+			Fulco</a> &amp; <a href="mailto:joselagem@gmail.com">Jose Lage</a>)</p>
+			<p class="auto-style2">
+		<img border="0" src="flag_catalunya.gif" alt="Language pack Catalano" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Catalan Pack.zip">
+			Catalano</a></b> (<a href="mailto:abmabm@gmx.es">Albert Barta</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_polonia.gif" alt="Language Pack Polacco" width="25" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Polish Pack.zip">Polacco</a></b> (By 
+			<a href="mailto:jaroslav@boernerowo.waw.pl">Jaroslaw</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_slovak.gif" alt="Language Pack Slovacco" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Slovak Pack.zip">Slovacco</a></b> (By 
+			<a href="mailto:Rene.Kuzica@siemens.com?subject=DSynchronizeSlovak">Rene Kuzica</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_grecia.gif" width="24" height="16" alt="Language pack Greco">
+			<b>
+			<a href="../../zip/DSynchronize Greek Pack.zip">Greco</a></b> (By
+			<a href="mailto:admin@geogeo.gr">Geogeo</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_south_korea.gif" alt="Language pack Koreano">
+			<b>
+			<a href="../../zip/DSynchronize Korean Pack.zip">Koreano</a></b> (By 
+			<a href="mailto:sushizang@empal.com?subject=DSynchronizeKoreano">Sushizang</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_czech_republic.gif" alt="Language Pack Repubblica Ceca" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Czech Pack.zip">Czech Republic</a>
+			</b>(By 
+			<a href="mailto:alfox@seznam.cz">Alfox</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_brasile.gif" alt="Language pack Brasiliano" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Brasilian Pack.zip">Brasiliano</a></b> 
+			(By
+			<a href="mailto:victor.bonalume@gmail.com?subject=DSynchronizeBrasiliano">Victor Bonalume</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_turchia.gif" alt="Turkish Language Pack" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Turkish Pack.zip">Turco</a>
+			</b>(By 
+			<a href="mailto:murat@ilgec.org">Murat ÖZTÜRK</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_cina.gif" alt="Chinese Language Pack" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Chinese (CHT) Pack.zip">Cinese (CHT)</a>
+			</b>(By 
+			<a href="mailto:abletw5@gmail.com">Able 5 @ TW</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_russia.gif" alt="Language Pack Russia" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Russian Pack.zip">Russo</a>
+			</b>(By 
+			<a href="mailto:melnikovsoft@mail.ru">Pavel Melnikov</a> &amp;
+			<a href="mailto:valerik-roma@mail.ru">Valerij Romanovskij</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_svezia.gif" alt="Language Pack Svezia" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Swedish Pack.zip">Svedese</a>
+			</b>(By 
+			<a href="mailto:eson57@gmail.com">Åke Engelbrektson</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_norvegia.gif" alt="Language Pack Norvegia" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Norwegian Pack.zip">Norvegese</a>
+			</b>(By 
+			<a href="mailto:oddsteinar@gmail.com">Odd-Steinar Mathisen</a>)</p>
+			<p class="auto-style2">
+			<img border="0" src="flag_danimarca.gif" alt="Language Pack Danimarca" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Danish Pack.zip">Danish</a>
+			</b>(By 
+			<a href="mailto:HP%20Schultz%20%3Chp@hpes.dk%3E">Hans Peter Schultz</a>)</p>
+			<p class="auto-style2">
+			<img alt="Language Pack Dutch" border="0" height="16" src="flag_olanda.gif" width="24">
+			<b>
+			<a href="../../zip/DSynchronize Dutch Pack.zip">Dutch</a>
+			</b>(By 
+			<a href="mailto:bvthof@gmail.com">Bert van 't Hof</a>)&nbsp;</p>
+			<p class="auto-style2">
+		<img border="0" src="flag_india.gif" alt="Language Pack Tamil" width="24" height="16">
+			<b>
+			<a href="../../zip/DSynchronize Tamil Pack.zip">
+			Tamil</a>
+		</b>(By 
+			<a href="mailto:anishprabu243@gmail.com">Anish Prabu</a>)</p>
+			<p class="auto-style43">
+			<a href="../../zip/DSynchronize Template.zip">
+			Modello</a> per aspiranti Traduttori, per creare un nuovo Language 
+			Pack potete partire da questo modello che, al momento, è 
+			praticamente perfetto.</p>
+		</blockquote>
+		</td>
+	</tr>
+</table>
+
+<hr>
+
+<div align="center">
+
+	<div align="center">
+
+		<div align="center">
+
+<table border="1" width="78%" cellpadding="20" cellspacing="5">
+	<tr>
+		<td bgcolor="#D6D6D6" class="auto-style11">
+		<p align="center">
+		<a name="Donate">
+		<img height="71" src="donate.gif" width="365" alt="DONATE"></a></p>
+		<p align="center" class="auto-style25">Tutti i miei programmi sono 
+		free e rimarranno 
+		sempre free. Se volete aiutare me e il mio gatto (Piumino) a continuare a 
+		migliorarli o a svilupparne di nuovi, offritemi una pizza e/o fatemi una 
+		piccola donazione.</p>
+		<div align="center">
+			<table border="0" width="85%">
+				<tr>
+					<td width="377">
+			<table border="1" width="33%">
+				<tr>
+					<td align="center">
+					<p align="center">
+					<img border="0" src="dimio_e_piumino.jpg" width="312" height="244"></p></td>
+				</tr>
+			</table>
+					</td>
+					<td align="right">
+			<table border="1">
+				<tr>
+					<td align="right">
+					<p align="center">
+					<img border="0" src="plumidi.jpg" width="184" height="181"></p></td>
+				</tr>
+			</table>
+					</td>
+				</tr>
+			</table>
+			<p align="center" class="auto-style25">Se preferite potete offrire un paio di scatolette a 
+			Piumino o a suo fratello Piumone (gradiranno sicuramente).</p>
+			<p align="center" class="auto-style25">
+			<font color="#990033"> 
+			Come fare una donazione:</font></p>
+			<p><span class="auto-style25">Se avete una carta di credito potete fare una donazione tramite 
+			</span><span class="auto-style26">Paypal </span>
+			<span class="auto-style25">(non c'è bisogno di avere un account Paypal):</span></p></div>
+		<p align="center">
+		<a href="https://www.paypal.com/xclick/business=cyberdimio@gmail.com&item_name=Digita+la+cifra+che+vuoi+donare+per+supportare+DSynchronize&return=http://dimio.altervista.org/tnx.html&cancel_return=http://dimio.altervista.org/cancel.html&currency_code=EUR&lc=IT">
+		<img border="0" src="PayPal.gif" alt="Fai una donazione con PayPal"></a></p>
+		<p align="center">
+		<span class="auto-style25">Oppure potete fare la donazione tramite 
+		</span><span class="auto-style26">bonifico</span><span class="auto-style25"> sul c/c 
+		mio e di Piumino:</span></p>
+		<div align="center">
+			<table border="1" width="46%" cellpadding="4">
+				<tr>
+					<td>
+					<span class="auto-style26">Nome della banca:</span><span class="auto-style25"> Poste Italiane SPA</span><br class="auto-style25">
+					<span class="auto-style26">Intestatario:</span><span class="auto-style25"> Dimitrios Coutsoumbas</span><br class="auto-style25">
+					<span class="auto-style26">BIC:</span><span class="auto-style25"> BPPIITRRXXX</span><br class="auto-style25">
+					<span class="auto-style26">CIN:</span><span class="auto-style25"> I</span><br class="auto-style25">
+					<span class="auto-style26">ABI:</span><span class="auto-style25"> 07601</span><br class="auto-style25">
+					<span class="auto-style26">CAB:</span><span class="auto-style25"> 02400</span><br class="auto-style25">
+					<span class="auto-style26">Numero del conto:</span><span class="auto-style25"> 000076804277</span><br class="auto-style25">
+					<span class="auto-style26">IBAN:</span><span class="auto-style25"> IT-80-I-07601-02400-000076804277</span></td>
+				</tr>
+			</table>
+			<div class="auto-style2">
+				<div class="auto-style5">
+					<strong><span class="auto-style1"><span class="auto-style3">
+					<br>- LICENZA (FREEWARE)&nbsp;-</span></span></strong><br>
+				</div>
+				<table style="width: 100%">
+					<tr>
+						<td class="auto-style5" style="width: 447px"><strong>
+						<span class="auto-style1">E' CONSENTITO</span></strong></td>
+						<td class="auto-style5"><strong>
+						<span class="auto-style4">NON E' CONSENTITO</span></strong></td>
+					</tr>
+					<tr>
+						<td style="width: 447px" class="auto-style27">L'utilizzo in ogni ambito, anche 
+						commerciale.<br>L'inclusione in altri pacchetti software, 
+						anche commerciali.<br>Distribuzione in CD/DVD e/o 
+						riviste.</td>
+						<td class="auto-style6">
+						<span class="auto-style25">Modificare gli eseguibili.</span><br class="auto-style25">
+						<span class="auto-style25">Offrire lo scaricamento tramite un software 
+						&quot;downloader&quot;.</span><br class="auto-style25">
+						</td>
+					</tr>
+				</table>
+			</div>
+			</div>
+		</td>
+	</tr>
+</table>
+<table border="0" width="100%" cellpadding="15">
+	<tr>
+		<td>
+
+<hr>
+
+		</td>
+	</tr>
+</table>
+
+<table border="2" width="65%" cellpadding="10" cellspacing="3" height="364">
+	<tr>
+		<td bgcolor="#D6D6D6" align="center" class="auto-style11">
+
+		<p align="center" class="auto-style25"><font color="#800080">I programmi di Dimio seguono la filosofia di Piumino 
+		&quot;piccolo è bello&quot;</font></p>
+		<table border="0" width="91%" height="192">
+			<tr>
+				<td><span class="auto-style25">- Sono tutti </span>
+				<span class="auto-style26">stand-alone</span><span class="auto-style25"> (cioè non richiedono 
+		installazione).</span><br class="auto-style25">
+				<span class="auto-style25">- Il consumo di risorse è ridotto al minimo.</span><br class="auto-style25">
+				<span class="auto-style25">- Non scrivono niente nel </span>
+				<span class="auto-style26">registro</span><span class="auto-style25"> di sistema 
+			(al contrario di molti altri software).</span><br class="auto-style25">
+				<span class="auto-style25">- Non scrivono files al di fuori della propria 
+			cartella.</span><br class="auto-style25">
+				<span class="auto-style25">- Non hanno orpelli che possano in qualche modo 
+			appesantire.</span><br class="auto-style25">
+				<span class="auto-style25">- Le interfacce sono studiate per rendere veloce 
+			l'utilizzo all'utente abituale.</span><br class="auto-style25">
+				<span class="auto-style25">- Non vengono utilizzati componenti esterni che possano appesantire.</span><br class="auto-style25">
+				<span class="auto-style25">- Sono dei Freeware nel vero senso del termine.<br></span>
+		<div align="center">
+			<table width="36%" height="88" class="auto-style74">
+				<tr>
+					<td align="center">
+							<table cellspacing="1" class="auto-style57">
+								<tr>
+									<td>
+									<a href="../../index.htm" title="Dimio Home">
+									<img border="0" height="80" src="dimitrios.JPG" width="80"></a></td>
+								</tr>
+							</table>
+							<hr>
+		<table border="0" width="89%">
+			<tr>
+				<td>
+				<p align="center"><strong>E-mail:</strong></p></td>
+				<td width="119" align="center" colspan="2">
+				<p><a href="mailto:cyberdimio@gmail.com"><strong>Dimio</strong></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+			</tr>
+			<tr>
+				<td>
+				<p align="center"><strong>Skype:</strong></p></td>
+				<td width="97">
+				<script type="text/javascript" src="http://download.skype.com/share/skypebuttons/js/skypeCheck.js"></script>
+				<a href="skype:katafratto?chat">
+				<img src="skype_chat.png" style="border: none;" width="97" height="23" alt="Chat with Dimio over Skype"></a></td>
+				<td width="18">
+				<a href="skype:katafratto?chat"><img src="http://mystatus.skype.com/smallicon/katafratto" style="border: none;" width="16" height="16" alt="My status"></a></td>
+			</tr>
+		</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+				</td>
+			</tr>
+		</table>
+		</td>
+	</tr>
+</table>
+</div></div>
+</div>
+<script type="text/javascript" src="../../stats/php-stats.js.php.html"></script>
+<noscript><img src="http://dimio.altervista.org/stats/php-stats.php" border="0" alt=""></noscript>
+</body>
+<!-- Copied from http://dimio.altervista.org/ita/dsynchronize/dsynchronize.html by Cyotek WebCopy 1.7.0.600, 20 Tha?ng Sa?u 2019, 08:54:36 -->
+</html>

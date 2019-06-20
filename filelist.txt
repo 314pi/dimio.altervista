@@ -1,0 +1,638 @@
+Folder PATH listing for volume w7x32
+Volume serial number is 00000200 FE01:7A27
+C:.
+|   1.txt
+|   README.md
+|   
+\---dimio.altervista.org
+    |   5-stars-award.gif
+    |   5starsaward.gif
+    |   award5stars_softsland.gif
+    |   BestDownloadsCenter.png
+    |   bestsoftdownload.jpg
+    |   bestsoftware4u.jpg
+    |   BestVistaDownloads.gif
+    |   brothersoft.gif
+    |   chippick_small.png
+    |   clean award.gif
+    |   cleanaward.gif
+    |   cleanBgk2.gif
+    |   cleansofts.gif
+    |   confronto_tra_engines_vocali.mp3
+    |   coredownload.png
+    |   dimitrios.jpg
+    |   Dimitrios_Coutsoumbas_(Dimio)_Glass.png
+    |   dodownload.png
+    |   Download Software 4 Free.gif
+    |   download-picks.gif
+    |   download25.gif
+    |   download2pc.gif
+    |   download2you.png
+    |   download3k.png
+    |   downloadmost.gif
+    |   downloadpipe.gif
+    |   downloadrage.gif
+    |   downloadroute.gif
+    |   downloadsofts.gif
+    |   downloadtopc.gif
+    |   downloadzone.png
+    |   dspeech_dialogue_ita.mp3
+    |   dspeech_help_eng.mp3
+    |   dspeech_help_ita.mp3
+    |   dspeech_sample_eng.mp3
+    |   dspeech_sample_ita.mp3
+    |   editorschoiceaward.gif
+    |   efreedown.gif
+    |   eng.gif
+    |   EngArrow.png
+    |   favicon.ico
+    |   fileaward.gif
+    |   filebrothers.jpg
+    |   FileFirm.gif
+    |   FileFirmClean.gif
+    |   finaldownload.gif
+    |   FindMySoft.png
+    |   FindMySoft2.png
+    |   fortedownloads.png
+    |   fortedownloads_award2.png
+    |   freevistafiles.png
+    |   freewarefiles.gif
+    |   FreewareFiles.png
+    |   geardownload.gif
+    |   getfreesoft.gif
+    |   index.htm
+    |   ita.gif
+    |   ItaArrow.png
+    |   mainfiles.gif
+    |   majorgeeks.gif
+    |   nicedownloads.gif
+    |   portalprogramas.gif
+    |   portalprogramas2.jpg
+    |   puntoinformatico.gif
+    |   rbytes.gif
+    |   redsoft.gif
+    |   safe-install.gif
+    |   sfondogrigiochiaro2.jpg
+    |   sofotex.gif
+    |   soft4each.gif
+    |   soft82.png
+    |   softdll.gif
+    |   softdll2.gif
+    |   softgo.gif
+    |   SoftList.gif
+    |   softoxi 01.png
+    |   softpedia2.gif
+    |   softplatz.gif
+    |   softplatzedchoice.gif
+    |   softsoft.gif
+    |   software-download-free.gif
+    |   supershareware.GIF
+    |   swzone.gif
+    |   techmediapoint.gif
+    |   thesmartdigit.gif
+    |   Title-Dimio-Software-Red.gif
+    |   topqualityfreeware.gif
+    |   trialware3k.gif
+    |   trysoftware.gif
+    |   x64bitdownload.gif
+    |   yankeedownload.png
+    |   
+    +---eng
+    |   |   altoparlante_ita.gif
+    |   |   altoparlante_usa.gif
+    |   |   Author 04.gif
+    |   |   dclean_icon.png
+    |   |   DExplorer.gif
+    |   |   dexplorer_icon.png
+    |   |   dimio_e_piumino.jpg
+    |   |   dimitrios.JPG
+    |   |   donate.gif
+    |   |   DoubleFinder.gif
+    |   |   doublefinder_icon.png
+    |   |   dshutdown.jpg
+    |   |   dshutdown_help_1.gif
+    |   |   dshutdown_help_2.gif
+    |   |   dshutdown_icon.png
+    |   |   dspeech.jpg
+    |   |   dspeech_ico.png
+    |   |   dspeech_icon.gif
+    |   |   dsynchronize.gif
+    |   |   dsynchronize_icon.gif
+    |   |   dsync_targets.gif
+    |   |   dtaskmanager.gif
+    |   |   dtaskmanager_icon.gif
+    |   |   favicon.ico
+    |   |   flag_brasile.gif
+    |   |   flag_catalunya.gif
+    |   |   flag_cina.gif
+    |   |   flag_czech_republic.gif
+    |   |   flag_danimarca.gif
+    |   |   flag_francia.gif
+    |   |   flag_germania.gif
+    |   |   flag_grecia.gif
+    |   |   flag_india.gif
+    |   |   flag_italia.gif
+    |   |   flag_norvegia.gif
+    |   |   flag_olanda.gif
+    |   |   flag_polonia.gif
+    |   |   flag_russia.gif
+    |   |   flag_serbia.gif
+    |   |   flag_slovak.gif
+    |   |   flag_south_korea.gif
+    |   |   flag_spagna.gif
+    |   |   flag_svezia.gif
+    |   |   flag_turchia.gif
+    |   |   flag_ungheria.gif
+    |   |   flag_usa.gif
+    |   |   flag_vietnam.gif
+    |   |   hdhacker.gif
+    |   |   hdhacker_icon.png
+    |   |   How_to_shutdown_remote_PCs.html
+    |   |   index.htm
+    |   |   index.html
+    |   |   ita.gif
+    |   |   Logo-Dimio-Software8.png
+    |   |   PayPal.gif
+    |   |   sfondogrigiochiaro2B.jpg
+    |   |   sfondogrigiochiaro4.jpg
+    |   |   skype_chat.png
+    |   |   Title-Dimio-Software.gif
+    |   |   
+    |   \---dsynchronize
+    |           Arrow Glass Transparent Side.png
+    |           Box_dsync.jpg
+    |           CheckTrans.png
+    |           Controller.gif
+    |           Descrizione.gif
+    |           dimio_e_piumino.jpg
+    |           dimitrios.JPG
+    |           donate.gif
+    |           Download Maxi e Freccia Trans.png
+    |           dsynchronize.html
+    |           dsynchronize_icon_flash.gif
+    |           dsynchronize_jobs_and_filters.gif
+    |           dsynchronize_main.gif
+    |           dsynchronize_screenshot.gif
+    |           dsynchronize_targets.gif
+    |           DSynchronize_Tesseract.gif
+    |           dsynchronize_transactional.gif
+    |           ExplainTransactional.gif
+    |           favicon.ico
+    |           flag_brasile.gif
+    |           flag_catalunya.gif
+    |           flag_cina.gif
+    |           flag_czech_republic.gif
+    |           flag_danimarca.gif
+    |           flag_francia.gif
+    |           flag_germania.gif
+    |           flag_grecia.gif
+    |           flag_india.gif
+    |           flag_italia.gif
+    |           flag_norvegia.gif
+    |           flag_olanda.gif
+    |           flag_polonia.gif
+    |           flag_russia.gif
+    |           flag_slovak.gif
+    |           flag_south_korea.gif
+    |           flag_spagna.gif
+    |           flag_svezia.gif
+    |           flag_turchia.gif
+    |           Internationals.gif
+    |           Logo-DS-Glass8.png
+    |           PayPal.gif
+    |           plumidi.jpg
+    |           PowerfulFeatures.gif
+    |           Screenshots.gif
+    |           Scritta-Controller.gif
+    |           Scritta-Mid-B.gif
+    |           Scritta-MidV2.gif
+    |           Scritta-TopV2.gif
+    |           sfondogrigiochiaro2B.jpg
+    |           skype_chat.png
+    |           Title.gif
+    |           
+    +---ita
+    |   |   altoparlante_ita.gif
+    |   |   altoparlante_usa.gif
+    |   |   Author 04.gif
+    |   |   BannerWhiteForest.JPG
+    |   |   Come_spegnere_i_PC_remoti.html
+    |   |   dclean_icon.png
+    |   |   DExplorer.gif
+    |   |   dexplorer_icon.png
+    |   |   dimio_e_piumino.jpg
+    |   |   dimitrios.JPG
+    |   |   donate.gif
+    |   |   DoubleFinder.gif
+    |   |   doublefinder_icon.png
+    |   |   dshutdown.jpg
+    |   |   dshutdown_help_1.gif
+    |   |   dshutdown_help_2.gif
+    |   |   dshutdown_icon.png
+    |   |   dspeech.jpg
+    |   |   dspeech_ico.png
+    |   |   dspeech_icon.gif
+    |   |   dsynchronize.gif
+    |   |   dsynchronize_icon.gif
+    |   |   dsync_targets.gif
+    |   |   dtaskmanager.gif
+    |   |   dtaskmanager_icon.gif
+    |   |   eng.gif
+    |   |   favicon.ico
+    |   |   flag_brasile.gif
+    |   |   flag_catalunya.gif
+    |   |   flag_cina.gif
+    |   |   flag_czech_republic.gif
+    |   |   flag_danimarca.gif
+    |   |   flag_francia.gif
+    |   |   flag_germania.gif
+    |   |   flag_grecia.gif
+    |   |   flag_india.gif
+    |   |   flag_italia.gif
+    |   |   flag_norvegia.gif
+    |   |   flag_olanda.gif
+    |   |   flag_polonia.gif
+    |   |   flag_russia.gif
+    |   |   flag_serbia.gif
+    |   |   flag_slovak.gif
+    |   |   flag_south_korea.gif
+    |   |   flag_spagna.gif
+    |   |   flag_svezia.gif
+    |   |   flag_turchia.gif
+    |   |   flag_ungheria.gif
+    |   |   flag_usa.gif
+    |   |   flag_vietnam.gif
+    |   |   hdhacker.gif
+    |   |   hdhacker_icon.png
+    |   |   index.htm
+    |   |   index.html
+    |   |   Logo-Dimio-Software8.png
+    |   |   PayPal.gif
+    |   |   plumidi.jpg
+    |   |   sfondogrigiochiaro2B.jpg
+    |   |   sfondogrigiochiaro4.jpg
+    |   |   skype_chat.png
+    |   |   Title-Dimio-Software.gif
+    |   |   
+    |   +---dspeech
+    |   |       change-voice.gif
+    |   |       dimitrios.JPG
+    |   |       dspeech.html
+    |   |       DSpeechMain2.jpg
+    |   |       dspeech_fr.html
+    |   |       dspeech_it.html
+    |   |       favicon.ico
+    |   |       PulsanteSpeak.jpg
+    |   |       RightClick.jpg
+    |   |       SaveAsMp3.jpg
+    |   |       SelectionLanguage.jpg
+    |   |       SelectVoice.jpg
+    |   |       sfondogrigiochiaro3.jpg
+    |   |       Snow-Transparent-LineM.gif
+    |   |       
+    |   +---dsynchronize
+    |   |       Arrow Glass Transparent Side.png
+    |   |       Box_dsync.jpg
+    |   |       CheckTrans.png
+    |   |       Controller.gif
+    |   |       dimio_e_piumino.jpg
+    |   |       dimitrios.JPG
+    |   |       donate.gif
+    |   |       Download Maxi e Freccia Trans.png
+    |   |       dsynchronize.html
+    |   |       dsynchronize_descrizione.gif
+    |   |       dsynchronize_icon_flash.gif
+    |   |       dsynchronize_jobs_and_filters.gif
+    |   |       dsynchronize_main.gif
+    |   |       dsynchronize_screenshot.jpg
+    |   |       dsynchronize_targets.gif
+    |   |       dsynchronize_tesseract.gif
+    |   |       dsynchronize_transactional.gif
+    |   |       favicon.ico
+    |   |       flag_brasile.gif
+    |   |       flag_catalunya.gif
+    |   |       flag_cina.gif
+    |   |       flag_czech_republic.gif
+    |   |       flag_danimarca.gif
+    |   |       flag_francia.gif
+    |   |       flag_germania.gif
+    |   |       flag_grecia.gif
+    |   |       flag_india.gif
+    |   |       flag_italia.gif
+    |   |       flag_norvegia.gif
+    |   |       flag_olanda.gif
+    |   |       flag_polonia.gif
+    |   |       flag_russia.gif
+    |   |       flag_slovak.gif
+    |   |       flag_south_korea.gif
+    |   |       flag_spagna.gif
+    |   |       flag_svezia.gif
+    |   |       flag_turchia.gif
+    |   |       Internationals.gif
+    |   |       Logo-DS-Glass8.png
+    |   |       PayPal.gif
+    |   |       plumidi.jpg
+    |   |       PowerfulFeatures.gif
+    |   |       Screenshots.gif
+    |   |       Scritta-Mid-B.gif
+    |   |       Scritta-MidV2.gif
+    |   |       Scritta-TopV2.gif
+    |   |       scritta-transacted_ita.gif
+    |   |       scritta_controller.gif
+    |   |       sfondogrigiochiaro2B.jpg
+    |   |       skype_chat.png
+    |   |       Title.gif
+    |   |       
+    |   +---laser
+    |   |       Arctic 1400mW.jpg
+    |   |       arctic.gif
+    |   |       arctic.jpg
+    |   |       Cheap and quality laser.jpg
+    |   |       core.gif
+    |   |       Dimio's Lasers Logo.jpg
+    |   |       dimiobanner.jpg
+    |   |       dimitrios.JPG
+    |   |       e2.gif
+    |   |       e3.gif
+    |   |       favicon.ico
+    |   |       Laser 2000mW Vs 11 CD.jpg
+    |   |       laser.html
+    |   |       laserburn.jpg
+    |   |       lasercut.jpg
+    |   |       Lasergirl0.jpg
+    |   |       Lasergirl1.jpg
+    |   |       lasergirl2.jpg
+    |   |       lasergirl3ita.jpg
+    |   |       lasergirl4ita.jpg
+    |   |       lasergirl5.jpg
+    |   |       lasergirl6.jpg
+    |   |       lasermatch.jpg
+    |   |       laserpopballons.jpg
+    |   |       lasertest.avi
+    |   |       lasertest.jpg
+    |   |       lightsaber.jpg
+    |   |       lunar.jpg
+    |   |       Occhiali militari anti-laser.jpg
+    |   |       pntverde.gif
+    |   |       S3_Arctic.jpg
+    |   |       schema laser verdi.jpg
+    |   |       sfondogrigiochiaro3.jpg
+    |   |       sfondogrigiochiaro4.jpg
+    |   |       skype_chat.png
+    |   |       
+    |   \---swords
+    |       |   Atlantean Logo.jpg
+    |       |   Coming soon.jpg
+    |       |   Dimio Sword Reviews Logo.jpg
+    |       |   Dimio Swords Theme.wma
+    |       |   dimiobanner.jpg
+    |       |   Dimio_Sword_Reviews.jpg
+    |       |   favicon.ico
+    |       |   Gladio Logo.jpg
+    |       |   Katana Logo.jpg
+    |       |   Ninja To Logo.jpg
+    |       |   Rapier Logo.jpg
+    |       |   Spadona Bresciana Logo.jpg
+    |       |   swords.html
+    |       |   Templar Logo.jpg
+    |       |   
+    |       +---atlantean
+    |       |       Atlantean Destroyer in box.jpg
+    |       |       Atlantean Destroyer.jpg
+    |       |       Atlantean Destroyer.wmv
+    |       |       Atlantean Full Tang.jpg
+    |       |       Atlantean on the wall.jpg
+    |       |       Atlantean Particolare.jpg
+    |       |       Atlantean Theme.wma
+    |       |       Atlantean with Scabbard.jpg
+    |       |       atlantean.html
+    |       |       AtlanteancuttingdemocopyrightAlbionarmorers2002.jpg
+    |       |       AtlanteancuttingdemocopyrightAlbionarmorers2002.mpeg
+    |       |       Conan Destroyer.jpg
+    |       |       Conan sword Atlantean Destroyer original.jpg
+    |       |       Conan sword Atlantean Destroyer polished.jpg
+    |       |       Conan Sword Barbarian.jpg
+    |       |       Conan Sword Destroyer.jpg
+    |       |       Conan Swords Barbarian and Destroyer.jpg
+    |       |       Dimio con l'Atlantean.jpg
+    |       |       dimiobanner.jpg
+    |       |       Dimio_Sword_Reviews_Home.jpg
+    |       |       dimitrios.JPG
+    |       |       Grandma Gloria Begozzi (94y) with Atlantean Destroyer Conan Sword.jpg
+    |       |       Guerriero con l'Atlantean.jpg
+    |       |       Guerriero da bambino davanti all'Atlantean.jpg
+    |       |       Michela con L'Atlantean M2.jpg
+    |       |       Michela con L'Atlantean M4.jpg
+    |       |       skype_chat.png
+    |       |       
+    |       +---brescia
+    |       |       Brescia Guardia Libera.jpg
+    |       |       Brescia Posta di Donna Sovrana e Altera.jpg
+    |       |       brescia.html
+    |       |       brescia01.jpg
+    |       |       Bresciana vs Rapier 00.jpg
+    |       |       Bresciana vs Rapier 01.jpg
+    |       |       Bresciana vs Rapier 02.jpg
+    |       |       dimiobanner.jpg
+    |       |       Dimio_Sword_Reviews_Home.jpg
+    |       |       dimitrios.JPG
+    |       |       skype_chat.png
+    |       |       Spadona Bresciana Originale.jpg
+    |       |       Spadona Bresciana Progetto.jpg
+    |       |       Spadona Bresciana Theme.wma
+    |       |       Spadona Bresciana.jpg
+    |       |       
+    |       +---gladius
+    |       |       dimiobanner.jpg
+    |       |       Dimio_Sword_Reviews_Home.jpg
+    |       |       dimitrios.JPG
+    |       |       Fulham Gladius 01.jpg
+    |       |       Fulham Gladius 02.jpg
+    |       |       Fulham Gladius 03.jpg
+    |       |       Fulham Gladius 04.jpg
+    |       |       Fulham Gladius 05.jpg
+    |       |       Fulham_Sword.jpg
+    |       |       Gladius Theme.wma
+    |       |       gladius.html
+    |       |       gladius_fulham.jpg
+    |       |       gladius_mainz.jpg
+    |       |       gladius_pompei.jpg
+    |       |       Legionario Vs Barbara 01.jpg
+    |       |       Legionario Vs Barbara 02.jpg
+    |       |       Legionario.jpg
+    |       |       skype_chat.png
+    |       |       
+    |       +---katana
+    |       |       dimiobanner.jpg
+    |       |       Dimio_Sword_Reviews_Home.jpg
+    |       |       dimitrios.JPG
+    |       |       k1-Altra Katana Ko Uda.jpg
+    |       |       k1-Banshee Vs Bullet.jpg
+    |       |       k1-Bizen.jpg
+    |       |       k1-denominazione parti katana.jpg
+    |       |       k1-differenti tecniche.jpg
+    |       |       k1-Dimio con la Katana Bainitica in L6.JPG
+    |       |       k1-Fuchi Kashira 02.jpg
+    |       |       k1-Fuchi Kashira.jpg
+    |       |       k1-GendaiTo.jpg
+    |       |       k1-Gloria Coutsoumbas con la Katana Bainitica in L6.JPG
+    |       |       k1-Gunto.jpg
+    |       |       k1-Ha-Kobore.jpg
+    |       |       k1-Hada 02.JPG
+    |       |       k1-Hada.jpg
+    |       |       k1-Hagire.jpg
+    |       |       k1-Hamon Choji.jpg
+    |       |       k1-Hamon Gunome.jpg
+    |       |       k1-Hamon Notare.jpg
+    |       |       k1-Hamon Suguha.jpg
+    |       |       k1-hamon.jpg
+    |       |       k1-Heian.jpg
+    |       |       k1-himika.jpg
+    |       |       k1-Himika_la_Katana_di_Dimio.jpg
+    |       |       k1-Joko-To.jpg
+    |       |       k1-katana da pratica.jpg
+    |       |       k1-Katana in Koshirae.jpg
+    |       |       k1-Katana Kamakura.jpg
+    |       |       k1-katana-highlander.jpg
+    |       |       k1-Katane Falsificate.jpg
+    |       |       k1-Kawagane-Shingane.jpg
+    |       |       k1-Kirikomi.jpg
+    |       |       k1-Kit Manutenzione Katana.gif
+    |       |       k1-Kitae-Ware.jpg
+    |       |       k1-Kittana.jpg
+    |       |       k1-Koshirae (particolare).jpg
+    |       |       k1-Kuchikomi.jpg
+    |       |       k1-L6.gif
+    |       |       k1-Lord Dimitrios Cavaliere.jpg
+    |       |       k1-Medio Edo.jpg
+    |       |       k1-Menuki.jpg
+    |       |       k1-Mino.jpg
+    |       |       k1-Momoyama.jpg
+    |       |       k1-Nanbokucho.jpg
+    |       |       k1-Nihonto Moderna.jpg
+    |       |       k1-Nihonto Storica.jpg
+    |       |       k1-nihonto.jpg
+    |       |       k1-Nonna con la Katana.JPG
+    |       |       k1-O-Suriage.jpg
+    |       |       k1-Oliatura Katana.jpg
+    |       |       k1-Paper Crane Hanwei.jpg
+    |       |       k1-piegatura kawagane.jpg
+    |       |       k1-piegatura tamahagane.jpg
+    |       |       k1-piegature.jpg
+    |       |       k1-Praying Mantis 02.jpg
+    |       |       k1-Rai Kunitoshi.jpg
+    |       |       k1-Rai Vs Kamakura.jpg
+    |       |       k1-Sageo.jpg
+    |       |       k1-samurai.jpg
+    |       |       k1-Shinae.jpg
+    |       |       k1-Shinsakuto.jpg
+    |       |       k1-Shirasaya.jpg
+    |       |       k1-Soshu.jpg
+    |       |       k1-studentessa_katana.jpg
+    |       |       k1-tamahagane fogli.jpg
+    |       |       k1-Tamahagane.jpg
+    |       |       k1-Tardo Edo.jpg
+    |       |       k1-Tardo Muromachi.jpg
+    |       |       k1-tipologie-di-curvatura.gif
+    |       |       k1-Tsuba 00.jpg
+    |       |       k1-Tsuba 01.jpg
+    |       |       k1-Tsuba 02.jpg
+    |       |       k1-Tsuba 03.jpg
+    |       |       k1-Tsuba 04.jpg
+    |       |       k1-Tsuba, Menuki e Fuchi Kashira.jpg
+    |       |       k1-Umegane.jpg
+    |       |       k1-Yaki-Ware 01.jpg
+    |       |       k1-Yaki-Ware 02.jpg
+    |       |       k1-Yamashiro.jpg
+    |       |       k1-Yamato.jpg
+    |       |       katana.html
+    |       |       skype_chat.png
+    |       |       
+    |       +---ninjato
+    |       |       barbara_mortal_combat.JPG
+    |       |       Dimio's Shinobi To.jpg
+    |       |       dimiobanner.jpg
+    |       |       Dimio_Sword_Reviews_Home.jpg
+    |       |       dimitrios.JPG
+    |       |       Hanwei Ninja To.jpg
+    |       |       Hollywood Ninja To.jpg
+    |       |       KuNoIchi vs Samurai 01.jpg
+    |       |       KuNoIchi vs Samurai 02.jpg
+    |       |       KuNoIchi with Ninja To II.jpg
+    |       |       KuNoIchi with Ninja To.jpg
+    |       |       ninja.gif
+    |       |       ninjato.html
+    |       |       Shinobi To Blade.jpg
+    |       |       Shinobi To Grip.jpg
+    |       |       Shinobi To Theme.wma
+    |       |       Shinobi To.jpg
+    |       |       skype_chat.png
+    |       |       
+    |       +---rapier
+    |       |       Affondo con Rapier.jpg
+    |       |       dimiobanner.jpg
+    |       |       Dimio_Sword_Reviews_Home.jpg
+    |       |       dimitrios.JPG
+    |       |       Guardia con Rapier.jpg
+    |       |       Impugnatura Rapier.jpg
+    |       |       Parata con Rapier.jpg
+    |       |       rapier theme.wma
+    |       |       rapier.html
+    |       |       Saluto con Rapier.jpg
+    |       |       skype_chat.png
+    |       |       
+    |       \---templar
+    |               dimitrios.JPG
+    |               Ordini Religiosi Cavallereschi.gif
+    |               Templar Theme.wma
+    |               templar.html
+    |               Templare Magenta Grip.jpg
+    |               Templare.jpg
+    |               
+    +---stats
+    |       php-stats.js.php.html
+    |       
+    \---zip
+            DShutdown Czech Pack.zip
+            DShutdown French Pack.zip
+            DShutdown German Pack.zip
+            DShutdown Italian Pack.zip
+            DShutdown Russian Pack.zip
+            DShutdown Serbian Pack.zip
+            DSpeech Template.zip
+            DSynchronize Brasilian Pack.zip
+            DSynchronize Catalan Pack.zip
+            DSynchronize Chinese (CHT) Pack.zip
+            DSynchronize Czech Pack.zip
+            DSynchronize Danish Pack.zip
+            DSynchronize Dutch Pack.zip
+            DSynchronize French Pack.zip
+            DSynchronize German Pack.zip
+            DSynchronize Greek Pack.zip
+            DSynchronize Italian Pack.zip
+            DSynchronize Korean Pack.zip
+            DSynchronize Norwegian Pack.zip
+            DSynchronize Polish Pack.zip
+            DSynchronize Russian Pack.zip
+            DSynchronize Slovak Pack.zip
+            DSynchronize Spanish Pack.zip
+            DSynchronize Swedish Pack.zip
+            DSynchronize Tamil Pack.zip
+            DSynchronize Template.zip
+            DSynchronize Turkish Pack.zip
+            DTaskManager Chinese Pack.zip
+            DTaskManager French Pack.zip
+            DTaskManager Italian Pack.zip
+            DTaskManager Russian Pack.zip
+            DTaskManager Vietnamese Pack.zip
+            HDHacker French Pack.zip
+            HDHacker German Pack.zip
+            HDHacker Greek Pack.zip
+            HDHacker Hungarian Pack.zip
+            HDHacker Italian Pack.zip
+            HDHacker Polish Pack.zip
+            HDHacker Russian Pack.zip
+            HDHacker Spanish Pack.zip
+            Manual (ENG).pdf
+            Manual (FRA).pdf
+            

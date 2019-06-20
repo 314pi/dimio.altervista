@@ -1,0 +1,416 @@
+<html>
+<!-- Copied from http://dimio.altervista.org/ by Cyotek WebCopy 1.7.0.600, 20 Tha?ng Sa?u 2019, 08:54:36 -->
+
+<head>
+<title>Dimitrios Coutsoumbas (Dimio) Home Page</title>
+<meta http-equiv="Page-Enter" content="RevealTrans(Duration=1,Transition=12)">
+<meta name="description" content="Utilità freeware by Dimio, DShutdown: utilità per lo spegnimento temporizzato di windows in locale e in remoto, DSpeech: programma di TTS con funzionalità avanzate, DSynchronize: programma per la sincronizzazione delle cartelle, HDHacker: utilità per il salvataggio/ripristino del BootSector/MBR, DTaskManager: Task Manager con funzionalità avanzate">
+<meta name="keywords" content="tts, text to speech, taskmanager, lan, folder, power off, shutdown, schedule, remote, boot sector, reboot, sync, directory, backup, MBR, free, freeware, laser, katana, sword, windows, xp, voice, speak aloud, mp3, asr, speech recognition, hacker, 3d, grafica, dyslexia, dislessia, dawn, cat, conan, ninja, dimio, pc, lord dimitrios">
+<meta name="robots" content="index,follow">
+<meta name="revisit-after" content="7 days">   
+<link rel="SHORTCUT ICON" href="favicon.ico" type="image/x-icon">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+.auto-style1 {
+	text-align: center;
+}
+.auto-style3 {
+	text-align: right;
+}
+.auto-style5 {
+	vertical-align: middle;
+}
+.auto-style6 {
+	font-family: "Comic Sans MS";
+	font-weight: bold;
+}
+.auto-style7 {
+	text-align: center;
+	border-width: 1px;
+}
+</style>
+</head>
+
+<body bgcolor="#c8c8c8" background="sfondoGreyRose.jpg">
+
+<script language="JavaScript1.2">
+
+/*
+Snow Effect Script
+Submitted by Altan d.o.o. (snow@altan.hr, http://www.altan.hr/snow/index.html)
+Permission granted to Dynamicdrive.com to feature script in archive
+For full source code to this script, visit http://dynamicdrive.com
+*/
+
+
+//Configure below to change URL path to the snow image
+var snowsrc="fiocco.gif"
+// Configure below to change number of snow to render
+var no = 10
+
+var ns4up = (document.layers) ? 1 : 0; // browser sniffer
+var ie4up = (document.all) ? 1 : 0;
+var ns6up = (document.getElementById&&!document.all) ? 1 : 0;
+
+var dx, xp, yp; // coordinate and position variables
+var am, stx, sty; // amplitude and step variables
+var i, doc_width = 800, doc_height = 600;
+
+if (ns4up||ns6up) {
+doc_width = self.innerWidth;
+doc_height = self.innerHeight;
+} else if (ie4up) {
+doc_width = document.body.clientWidth;
+doc_height = document.body.clientHeight;
+}
+
+dx = new Array();
+xp = new Array();
+yp = new Array();
+am = new Array();
+stx = new Array();
+sty = new Array();
+
+for (i = 0; i < no; ++ i) { 
+dx[i] = 0; // set coordinate variables
+xp[i] = Math.random()*(doc_width-50); // set position variables
+yp[i] = Math.random()*doc_height;
+am[i] = Math.random()*20; // set amplitude variables
+stx[i] = 0.02 + Math.random()/10; // set step variables
+sty[i] = 0.7 + Math.random(); // set step variables
+if (ns4up) { // set layers
+if (i == 0) {
+document.write("<layer name=\"dot"+ i +"\" left=\"15\" top=\"15\" visibility=\"show\"><a href=\"http://dynamicdrive.com/\"><img src='"+snowsrc+"' border=\"0\"></a></layer>");
+} else {
+document.write("<layer name=\"dot"+ i +"\" left=\"15\" top=\"15\" visibility=\"show\"><img src='"+snowsrc+"' border=\"0\"></layer>");
+}
+} else if (ie4up||ns6up) {
+if (i == 0) {
+document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><a href=\"http://dynamicdrive.com\"><img src='"+snowsrc+"' border=\"0\"></a></div>");
+} else {
+document.write("<div id=\"dot"+ i +"\" style=\"POSITION: absolute; Z-INDEX: "+ i +"; VISIBILITY: visible; TOP: 15px; LEFT: 15px;\"><img src='"+snowsrc+"' border=\"0\"></div>");
+}
+}
+}
+
+function snowNS() { // Netscape main animation function
+for (i = 0; i < no; ++ i) { // iterate for every dot
+yp[i] += sty[i];
+if (yp[i] > doc_height-50) {
+xp[i] = Math.random()*(doc_width-am[i]-30);
+yp[i] = 0;
+stx[i] = 0.02 + Math.random()/10;
+sty[i] = 0.7 + Math.random();
+doc_width = self.innerWidth;
+doc_height = self.innerHeight;
+}
+dx[i] += stx[i];
+document.layers["dot"+i].top = yp[i];
+document.layers["dot"+i].left = xp[i] + am[i]*Math.sin(dx[i]);
+}
+setTimeout("snowNS()", 10);
+}
+
+function snowIE_NS6() { // IE and NS6 main animation function
+for (i = 0; i < no; ++ i) { // iterate for every dot
+yp[i] += sty[i];
+if (yp[i] > doc_height-50) {
+xp[i] = Math.random()*(doc_width-am[i]-30);
+yp[i] = 0;
+stx[i] = 0.02 + Math.random()/10;
+sty[i] = 0.7 + Math.random();
+doc_width = ns6up?window.innerWidth : document.body.clientWidth;
+doc_height = ns6up?window.innerHeight : document.body.clientHeight;
+}
+dx[i] += stx[i];
+if (ie4up){
+document.all["dot"+i].style.pixelTop = yp[i];
+document.all["dot"+i].style.pixelLeft = xp[i] + am[i]*Math.sin(dx[i]);
+}
+else if (ns6up){
+document.getElementById("dot"+i).style.top=yp[i];
+document.getElementById("dot"+i).style.left=xp[i] + am[i]*Math.sin(dx[i]);
+} 
+}
+setTimeout("snowIE_NS6()", 10);
+}
+
+if (ns4up) {
+snowNS();
+} else if (ie4up||ns6up) {
+snowIE_NS6();
+}
+
+</script>
+
+<div align="center">
+	<center>
+	<div align="center">
+				<table border="0" width="100%">
+					<tr>
+						<td rowspan="2" align="right">
+						<img border="0" src="editorschoiceaward.gif" width="120" height="68"></td>
+						<td align="center" height="66">
+	<table border="4" width="67%" style="background-image: url('sfondogrigiochiaro2.jpg')" height="107">
+		<tr>
+			<td>
+			<div align="center">
+				<table border="0" width="100%">
+					<tr>
+						<td class="auto-style1" style="width: 30%">
+						<p align="center" class="auto-style6">
+						<img height="69" src="Title-Dimio-Software-Red.gif" width="873"></p></td>
+						<td align="center">
+					<table border="1" width="20%" cellspacing="1">
+						<tr>
+							<td class="auto-style7">
+							<img border="0" src="dimitrios.jpg" width="80" height="80"></td>
+						</tr>
+					</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			</td>
+		</tr>
+	</table>
+						<br>
+						</td>
+						<td rowspan="2">
+						<img border="0" src="softplatz.gif" width="90" height="95"></td>
+					</tr>
+					<tr>
+						<td align="center">
+						<a href="eng/index.htm">
+					<img border="0" src="EngArrow.png" class="auto-style5"></a>&nbsp;
+						<a href="eng/index.htm">
+				<img border="0" src="eng.gif" alt="English version" class="auto-style5"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="ita/index.htm">
+				<img border="0" src="ita.gif" alt="Italian version" class="auto-style5"></a>&nbsp;
+						<a href="ita/index.htm">
+					<img border="0" src="ItaArrow.png" class="auto-style5" height="37" width="200"></a></td>
+					</tr>
+				</table>
+		</div>
+	</center></div>
+
+			<div align="center">
+				<br>
+				<table border="0" height="107">
+					<tr>
+						<td align="left">
+						<p align="center">
+						<img border="0" src="freewarefiles.gif" width="90" height="91"></p></td>
+						<td width="16%" align="left" rowspan="2">
+						<img border="0" src="downloadsofts.gif" width="164" height="115"></td>
+						<td rowspan="6" class="auto-style1">
+						&nbsp;<img src="Dimitrios_Coutsoumbas_(Dimio)_Glass.png"></td>
+						<td rowspan="2" style="width: 35%">
+						<img border="0" src="softpedia2.gif" width="170" height="116" align="right">&nbsp;</td>
+					</tr>
+					<tr>
+						<td align="left">
+						<p align="center">
+						<img border="0" src="dodownload.png" width="100" height="59" align="left"></p></td>
+					</tr>
+					<tr>
+						<td valign="top" colspan="2" class="auto-style1" style="width: 35%">
+						<p align="center">
+						<img border="0" src="5-stars-award.gif" width="120" height="120"></p></td>
+						<td width="26%" valign="top" rowspan="2">
+						<p align="left">
+						<img border="0" src="SoftList.gif" width="101" height="48" align="left"><p align="left">
+						&nbsp;<p align="left">
+						&nbsp;<p align="center">
+						<img border="0" src="download2pc.gif" width="100" height="50"><p align="left">
+						<img border="0" src="brothersoft.gif" width="88" height="31" align="right"></p></td>
+					</tr>
+					<tr>
+						<td width="29%" valign="top" style="width: 0%; height: 76px;">
+						<img border="0" src="finaldownload.gif" width="100" height="50" align="left"></td>
+						<td width="29%" valign="bottom" class="auto-style3" style="width: 14%; height: 76px;">
+						<img border="0" src="safe-install.gif" width="126" height="66"></td>
+					</tr>
+					<tr>
+						<td width="29%" valign="top" colspan="2" class="auto-style1">
+						<img height="103" src="chippick_small.png" width="235"></td>
+						<td rowspan="3">
+						<p align="center">
+						<img border="0" src="redsoft.gif" width="200" height="76"></p></td>
+					</tr>
+					<tr>
+						<td width="15%" rowspan="2">
+						<p align="center">
+		<img border="0" src="thesmartdigit.gif" width="77" height="80"></p></td>
+						<td width="14%" rowspan="2">
+						<img border="0" src="puntoinformatico.gif" width="150" height="50" align="right"></td>
+					</tr>
+					<tr>
+						<td width="46%">
+						<p align="center">
+						<img border="0" src="award5stars_softsland.gif" width="122" height="62"></p></td>
+					</tr>
+				</table>
+			</div>
+<table border="0" width="100%">
+	<tr>
+		<td>
+		<p align="center">
+		<img alt="" height="62" src="majorgeeks.gif" width="137"></p></td>
+		<td align="center" rowspan="2" width="466">
+		<p align="center">
+		<img border="0" src="cleansofts.gif" width="189" height="70" align="left"><img border="0" src="sofotex.gif" width="121" height="61"></p></td>
+		<td align="center" rowspan="2" width="382">
+		<img border="0" src="BestVistaDownloads.gif" width="160" height="80" align="left"><img border="0" src="supershareware.GIF" width="126" height="36"></td>
+		<td align="center" width="192" rowspan="2">
+		<img border="0" src="getfreesoft.gif" width="130" height="132" align="left"></td>
+	</tr>
+	<tr>
+		<td align="center">
+		<p align="center"><img border="0" src="topqualityfreeware.gif" width="88" height="32"></p></td>
+	</tr>
+</table>
+<table border="0" width="100%">
+	<tr>
+		<td width="18%" rowspan="2">
+		<p align="center">
+		<img border="0" src="downloadrage.gif" width="150" height="140"></p></td>
+		<td align="center" width="27%" height="74" colspan="2">
+		<img border="0" src="geardownload.gif" width="120" height="120" align="left"></td>
+		<td align="center" width="12%" rowspan="2" colspan="3">
+		<img border="0" src="nicedownloads.gif" width="108" height="107"></td>
+		<td align="center" width="18%" colspan="2" rowspan="2">
+		<img border="0" src="downloadroute.gif" width="160" height="80"></td>
+		<td align="center" width="13%" colspan="4" rowspan="2">
+		<img height="129" src="soft82.png" width="167"></td>
+		<td width="26%" rowspan="2">
+		<p align="center">
+		<img border="0" src="mainfiles.gif" width="144" height="45"></p></td>
+	</tr>
+	<tr>
+		<td align="center" width="27%" colspan="2">
+		<img border="0" src="downloadmost.gif" width="120" height="60" align="right"></td>
+	</tr>
+	<tr>
+		<td width="18%">
+		<p align="right">
+		<img border="0" src="clean award.gif" width="129" height="80"></p></td>
+		<td align="center" width="27%" colspan="2">
+		<p align="center">
+		<img border="0" src="softgo.gif" width="150" height="90"></p></td>
+		<td align="center" width="12%" colspan="3">
+		<img border="0" src="download25.gif" width="100" height="114"></td>
+		<td align="center" width="18%" colspan="2">
+		<img border="0" src="downloadpipe.gif" width="90" height="106"></td>
+		<td align="center" width="13%" colspan="4">
+		<img border="0" src="software-download-free.gif" width="126" height="49"></td>
+		<td width="26%">
+		<p align="center">
+		<img border="0" src="downloadtopc.gif" width="112" height="112"></p></td>
+	</tr>
+	<tr>
+		<td width="18%" height="127">
+		<p align="center"><img border="0" src="FileFirm.gif" width="144" height="60"></p></td>
+		<td align="center" width="27%" height="254" style="height: 127px" colspan="2">
+		<img border="0" src="FreewareFiles.png" width="170" height="90" align="left"></td>
+		<td align="center" width="12%" height="127" colspan="3">
+		<img border="0" src="softsoft.gif" width="124" height="70"></td>
+		<td align="center" width="18%" height="254" colspan="2" style="height: 127px">
+		<img height="57" src="FindMySoft2.png" width="158"><br></td>
+		<td align="center" width="13%" height="127" colspan="4">
+		<img border="0" src="soft4each.gif" width="88" height="45"></td>
+		<td width="26%" height="127">
+		<p align="center">
+		<img border="0" src="Download Software 4 Free.gif"></p></td>
+	</tr>
+	<tr>
+		<td width="18%" height="127">
+		<img border="0" src="fortedownloads.png" width="160" height="80"></td>
+		<td align="center" width="27%" height="254" style="height: 127px; width: 0%;">
+		<img height="95" src="softplatzedchoice.gif" width="90"></td>
+		<td align="center" width="27%" height="254" style="height: 127px; width: 13%;">
+		<img height="60" src="swzone.gif" width="60"></td>
+		<td align="center" width="12%" height="127" colspan="3">
+		<img border="0" src="softoxi 01.png" width="120" height="70"></td>
+		<td align="center" width="18%" height="254" colspan="2" style="height: 127px">
+		<img height="80" src="x64bitdownload.gif" width="160"></td>
+		<td align="center" width="13%" height="127" colspan="4">
+		<img border="0" src="rbytes.gif" width="97" height="108"></td>
+		<td width="26%" height="127">
+		<p align="center">
+		<img border="0" src="techmediapoint.gif" width="92" height="92"></p></td>
+	</tr>
+	<tr>
+		<td width="18%" height="112">
+		<p align="center">
+				<img border="0" src="BestDownloadsCenter.png" width="172" height="94"></p></td>
+		<td width="28%" colspan="2">
+		<p align="center">
+		<img border="0" src="fileaward.gif" width="150" height="75"><p align="center">&nbsp;</p></td>
+		<td align="center" height="187" rowspan="2" colspan="3">
+		<img border="0" src="trysoftware.gif" width="99" height="98"></td>
+		<td align="center" colspan="2" height="112">
+		<img border="0" src="bestsoftdownload.jpg" width="113" height="52"></td>
+		<td align="center" colspan="3" height="112">
+		<img border="0" src="bestsoftware4u.jpg"></td>
+		<td align="center" colspan="2" height="112">
+		<img border="0" src="download3k.png" width="150" height="100"></td>
+		</tr>
+	<tr>
+		<td width="40%" height="75">
+		<p align="center"><img border="0" src="trialware3k.gif" width="77" height="79"></p></td>
+		<td width="28%" colspan="2">
+		<img border="0" src="FindMySoft.png" width="160" height="110"></td>
+		<td align="center" height="75">
+		<img border="0" src="freevistafiles.png" width="80" height="40"></td>
+		<td align="center" colspan="2" height="75">
+		<img border="0" src="download-picks.gif" width="144" height="60"></td>
+		<td align="center" colspan="4" rowspan="2">
+		<img border="0" src="cleanaward.gif" width="150" height="100"></td>
+		</tr>
+	<tr>
+		<td width="40%" class="auto-style1">
+		<img height="120" src="filebrothers.jpg" width="150"></td>
+		<td width="28%" colspan="2">
+		<p align="center">
+		<img border="0" src="coredownload.png" width="129" height="64"></p></td>
+		<td align="center" colspan="4">
+		<img height="100" src="downloadzone.png" width="200"></td>
+		<td align="center" colspan="2">
+		<img border="0" src="portalprogramas.gif" width="170" height="120"></td>
+		</tr>
+	<tr>
+		<td class="auto-style1">
+		<img height="60" src="download2you.png" width="120" style="float: right"></td>
+		<td colspan="4" height="46">
+		<p class="auto-style1">
+		<img border="0" src="yankeedownload.png" width="120" height="60"></p></td>
+		<td colspan="2" height="46" class="auto-style1">
+		<img height="80" src="fortedownloads_award2.png" width="160"></td>
+		<td class="auto-style1" colspan="2">
+		<img border="0" src="efreedown.gif" width="85" height="44"></td>
+		<td colspan="4" height="46">
+		<p align="center">
+		<img height="60" src="cleanBgk2.gif" width="220"></p></td>
+		</tr>
+	<tr>
+		<td colspan="4" class="auto-style1">
+		<img src="portalprogramas2.jpg"></td>
+		<td colspan="3">
+		<img height="68" src="5starsaward.gif" width="120"></td>
+		<td colspan="3" class="auto-style1">
+		<img height="104" src="FileFirmClean.gif" width="144"></td>
+		<td colspan="3" class="auto-style1">
+		<img height="38" src="softdll2.gif" width="100"></td>
+	</tr>
+	<tr>
+		<td colspan="13">
+		<p align="center">
+		<img border="0" src="softdll.gif" width="80" height="80"></p></td>
+	</tr>
+</table>
+<script type="text/javascript" src="stats/php-stats.js.php.html"></script>
+<noscript><img src="http://dimio.altervista.org/stats/php-stats.php" border="0" alt=""></noscript>
+</body>
+<!-- Copied from http://dimio.altervista.org/ by Cyotek WebCopy 1.7.0.600, 20 Tha?ng Sa?u 2019, 08:54:36 -->
+</html>
